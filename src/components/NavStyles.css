@@ -1,0 +1,28 @@
+header .navbar-brand {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+header .navbar-toggler {
+    color: #fff;
+}
+
+header .nav-link {
+    color: #fff;
+    margin-left: 80px;
+
+}
+
+header .nav-link:hover {
+    color: #fff;
+    
+    text-decoration: underline teal 2px;
+}
+
+@media screen and (max-width:920px) {
+    header .nav-link {
+        margin:auto;
+        margin-top: 20px;
+    }
+}

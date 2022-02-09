@@ -1,0 +1,27 @@
+.search {
+    text-align: center;
+}
+
+.search input {
+    width: 50%;
+    margin-top: 50px;
+    border: 1px lightgray solid;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+::placeholder {
+text-align: center;
+}
+.search .btn {
+    color: #fff;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:920px) {
+    .search input {
+        width: 80%;
+       
+    
+    }
+}
