@@ -9,7 +9,7 @@ const Navbar = () => {
       <header>
           <nav class="navbar navbar-expand-md">
   <div class="container-fluid">
-    <Link to='/' class="navbar-brand" href="#">Movie+</Link>
+    <Link to='/' class="navbar-brand">Movie+</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <Hamburger direction='left' toggled={isOpen} toggle={setOpen} />
     </button>
